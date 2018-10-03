@@ -2,83 +2,91 @@
 <html>
 <head>
 	<title>PROFIL SAYA</title>
+	<link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
 	<nav>
+		<div class="menu-mobile">
+			<a href="#">Menu</a>
+		</div>
 		<ul>
-			<li><a href="#"> HOME </a></li>
-			<li><a href="#"> PRODUCT </a></li>
-			<li><a href="#"> GALLERY </a></li>
-			<li><a href="#"> NEWS </a></li>
-			<li><a href="#"> MY INVENTORY </a></li>
+			<li><a href="#">HOME</a></li>
+			<li><a href="#">PRODUCT</a></li>
+			<li><a href="#">GALLERY</a></li>
+			<li><a href="#">NEWS</a></li>
+			<li><a href="#">MY INVENTORY</a></li>
 		</ul>
 	</nav>
-	<section>
-		<div>
-			<img src="foto.jpg">
+	<section id="box-profile">
+		<div class="img-profile">
+			<div class="photo" style="background-image: url (assets/foto.jpg)"></div>
+
 		</div>
-		<div>
+			<img src="assets/foto.jpg">
+		</div> 
+
+		<div class="description">
 			<h1> Widya Oktaviani </h1>
 			<p> Front End Designer </p>
-			<a href="#"> Contact </a>
-			<a href="#"> Resume </a>
+			<a href="#"class="button bg-green"> Contact </a>
+			<a href="#"class="button border-blue"> Resume </a>
 		</div>
-		<div>
-			<div>
-				<p> Availability: </p>
-				<p> > Full Time </p>
+		<div class="information">
+			<div class="data">
+				<p class="field"> Availability: </p>
+				<p class="text-gray">  Full Time </p>
 			</div>
-			<div>
-				<p> Age: </p>
-				<p> > 17 </p>
+			<div class="data">
+				<p class="field"> Age: </p>
+				<p class="text-gray">  17 </p>
 			</div>
-			<div>
-				<p> Location: </p>
-				<p> > Purwokerto, Banyumas </p>
+			<div class="data">
+				<p class="field"> Location: </p>
+				<p class="text-gray">  Purwokerto, Banyumas </p>
 			</div>
-			<div>
-				<p> Year Experience: </p>
-				<p> > 1 </p>
+			<div class="data">
+				<p class="field"> Year Experience: </p>
+				<p class="text-gray">  1 </p>
 			</div>
-			<div>
-				<p> Email: </p>
-				<p> > oktaviani617@gmail.com </p>
+			<div class="data">
+				<p class="field"> Email: </p>
+				<p class="text-gray">  oktaviani617@gmail.com </p>
 			</div>
 		</div>
 	</section>
-	<section>
+	<section id="input-form">
 		<form method="#" action="#">
-			<div>
+			<div class="form">
 				<label> Nama </label>
 				<input type="text" name="name">
 			</div>
-			<div>
+			<div class="form">
 				<label> Role </label>
 				<input type="text" name="role">
 			</div>
-			<div>
+			<div class="form">
 				<label> Availibility </label>
 				<input type="text" name="availibility">
 			</div>
-			<div>
+			<div class="form">
 				<label> Age </label>
 				<input type="text" name="age">
 			</div>
-			<div>
+			<div class="form">
 				<label> Location </label>
 				<input type="text" name="location">
 			</div>
-			<div>
+			<div class="form">
 				<label> Years Experience </label>
 				<input type="text" name="years">
 			</div>
-			<div>
+			<div class="form">
 				<label> Email </label>
 				<input type="text" name="email">
 			</div>
 			<div>
 				<input type="submit" name="submit"
-				value="submit">
+				value="SUBMIT" class="bg-blue">
 			</div>
 		</form>
 	</section>
